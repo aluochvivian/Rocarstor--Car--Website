@@ -15,7 +15,18 @@
     list-style-type: none;
 } .nav ul li {
     display: inline-block;
-    list-style-type: none;
     margin-right: 80px;
-    
+    color: black;
+
+}
+a {
+    text-decoration: none;
+    columns: black;
+}
+.row1 img {
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    margin-top: -60px;
+    margin-left: 1000px;
 }
