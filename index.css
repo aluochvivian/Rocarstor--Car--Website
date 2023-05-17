@@ -34,6 +34,25 @@ a {
     text-decoration: none;
     columns: black;
 }
+button[type="btn"] {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .class2 a {
+    color: black;
+    list-style: none;
+  } 
+  .class2 a {
+    color: black;
+    text-decoration: none;
+    margin-left: 900px;
+  }    
 .column1 img {
     height: 400px;
     width: 500px;
@@ -83,12 +102,31 @@ a {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border-radius: 15px;
   }
-  .explore{
+  .car-images .car-images1 {
+    background-color: orangered;
+  }
+  .explore {
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: left;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 25px;
     border-radius: 5px;
     border-color: whitesmoke;
+    padding: 10px;
   }
-  
+  .explore em {
+    color: orange;
+  }
+  .Explre10x {
+    font-weight: normal;
+  color: orange;
+  font-size: 2rem;
+  }
   .car-button {
     display: flex;
     align-items: center;
@@ -172,7 +210,7 @@ a {
   }
 
   .carr2 img {
-    width: 200px; /* Adjust the width as per your requirements */
+    width: 200px; 
     height: 7em;
     margin: auto;
   }
@@ -208,7 +246,7 @@ a {
   }
 
   .carr3 img {
-    width: 200px; /* Adjust the width as per your requirements */
+    width: 200px; 
     height: 7em;
     margin: auto;
   }
@@ -235,7 +273,7 @@ a {
   }
 
   .carr4 img {
-    width: 200px; /* Adjust the width as per your requirements */
+    width: 200px; 
     height: 7em;
     margin: auto;
   }
@@ -263,7 +301,7 @@ a {
   }
 
   .carr5 img {
-    width: 200px; /* Adjust the width as per your requirements */
+    width: 200px; 
     height: 7em;
     margin: auto;
   }
@@ -291,7 +329,7 @@ a {
   }
 
   .carr6 img {
-    width: 200px; /* Adjust the width as per your requirements */
+    width: 200px; 
     height: 7em;
     margin: auto;
   }
@@ -307,16 +345,125 @@ a {
   }
   .row9 {
     text-align: left;
-    margin-top: 90px; /* Add top margin for spacing */
+    margin-top: 90px; 
     margin: 40px;
   }
 
   .row9 h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px; /* Add bottom margin for spacing */
+    margin-bottom: 10px; 
   }
 
   .row9 p {
     font-size: 16px;
   }
+  .row8 {
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  .row8 .image1,
+  .row8 .image2,
+  .row8 .image3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .row8 .image1 img,
+  .row8 .image2 img,
+  .row8 .image3 img {
+    width: 500px;
+    height: auto;
+  }
+
+  .row8 p,
+  .row8 h3 {
+    margin: 0;
+    text-align: center;
+  }
+  .row7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+  }
+  .row7 h2 {
+    height: auto;
+    padding-bottom: 0px;
+  }
+
+  .row7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .row7 p {
+    margin-bottom: 10px;
+  }
+  .last .row7 {
+    background-color: pink;
+    height: 20rem;
+    width: 100rem;
+    padding: 6rem;
+    margin-top: 16rem;
+    margin-left: 4rem;
+    padding-top: 20rem;
+    border-radius: 25px;
+  }
+
+.last .row7 .image1 {
+    margin-left: -25rem;
+    margin-bottom: -2rem;
+
+}
+.last .row7 .image3 {
+    margin-left: 75rem;
+    margin-bottom: 2rem;
+    margin-top: -28em;
+    height: 50vh;
+}
+.last .row7 .image1 .vee {
+    margin-right: -40rem;
+    margin-top: -13.3rem;
+}
+
+    .row8 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .row8 .image1,
+  .row8 .image2,
+  .row8 .image3 {
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .row8 img {
+    width: 150px;
+    height: auto;
+  }
+
+  .row8 p {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .row8 h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  
